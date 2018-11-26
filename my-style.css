@@ -1,16 +1,27 @@
 body{
-    margin: 0;
-    padding: 0;
+    background-color: #9BC995;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
-ul{
-    
+ul.listLeft {
+    display: block;
+    float: left;
+    margin:0px;
+    padding: 0px;
+    margin-top:15px;
 }
-p, h1{
-    text-align: center;
+ul.listLeft > li{
+    display: block;
+    margin: 5px;
+    border-width: 2px 2px 2px 15px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 90px 10px 10px;
+
 }
-h1{
-    text-decoration: underline;
-}
-h1:hover{
-    color:red;
+div.mainPage{
+    display: block;
+    float: right;
+    margin: 5px;
 }
