@@ -1,4 +1,4 @@
-body{
+html, body{
     background-color: #9BC995;
     margin: 0px;
     border: 0px;
@@ -8,20 +8,24 @@ ul.listLeft {
     display: block;
     float: left;
     margin:0px;
-    padding: 0px;
+    padding-left: 0px;
     margin-top:15px;
 }
 ul.listLeft > li{
     display: block;
-    margin: 5px;
-    border-width: 2px 2px 2px 15px;
+    margin-bottom: 7px;
+    /*border-width: 2px 2px 2px 15px;*/
+    border-width: 100%;
+    border-left: 15px;
     border-style: solid;
     border-color: black;
-    padding: 10px 90px 10px 10px;
+    padding: 7px 90px 7px 7px;
+    /*padding: 5%;
+    padding-right: 100%;*/
 
 }
 div.mainPage{
     display: block;
-    float: right;
-    margin: 5px;
+    float: left;
+    margin-left: 15px;
 }
