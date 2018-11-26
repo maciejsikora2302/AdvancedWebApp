@@ -10,22 +10,34 @@ ul.listLeft {
     margin:0px;
     padding-left: 0px;
     margin-top:15px;
+    width: 200px;
+    height: 100%;
 }
 ul.listLeft > li{
     display: block;
+}
+ul.listLeft a{
+    display: block;
+    color:white;
+    text-decoration: none;
     margin-bottom: 7px;
+    margin-left: 5px;
     /*border-width: 2px 2px 2px 15px;*/
-    border-width: 100%;
     border-left: 15px;
     border-style: solid;
     border-color: black;
-    padding: 7px 90px 7px 7px;
+    padding: 7px;
     /*padding: 5%;
     padding-right: 100%;*/
-
 }
 div.mainPage{
     display: block;
     float: left;
-    margin-left: 15px;
+    margin-left: 30px;
+}
+div.mainPage > h1{
+    margin-top: 5px;
+}
+p{
+    color: white;
 }
